@@ -1,0 +1,36 @@
+* DSchool
+
+** Environments
+
+| Name  | Settings                  | Requirements           |
+|-------+---------------------------+------------------------|
+| base  | dschool/settings/base.py  | requirements/base.txt  |
+| local | dschool/settings/local.py | requirements/local.txt |
+| dev   | dschool/settings/dev.py   | requirements/dev.txt   |
+| uat   | dschool/settings/uat.py   | requirements/uat.txt   |
+| prod  | dschool/settings/prod.py  | requirements/prod.txt  |
+
+#+BEGIN_SRC bash
+mkdir requirements
+touch requirements/base.txt
+touch requirements/local.txt
+touch requirements/dev.txt
+touch requirements/uat.txt
+touch requirements/prod.txt
+
+mkdir dschool/settings
+mv dschool/settings dschool/settings/base.py
+touch dschool/settings/__init__.py
+touch dschool/settings/local.py
+touch dschool/settings/dev.py
+touch dschool/settings/uat.py
+touch dschool/settings/prod.py
+#+END_SRC
+
+*** local
+
+*** dev
+
+*** uat
+
+*** prod

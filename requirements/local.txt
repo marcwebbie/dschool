@@ -1,0 +1,5 @@
+ipython==4.1.1
+pdbpp==0.8.3
+pudb==2015.4.1
+pytest-cov==2.2.1
+pytest-django==2.9.1
